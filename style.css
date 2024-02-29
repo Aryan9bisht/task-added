@@ -152,3 +152,68 @@ img{
     color:#7085AE;
     font-size: x-small;
 }
+@media only screen and (max-width: 475px) {
+    body {
+        margin: 0;
+        background: #EAEAEA;
+    }
+
+    .form-task {
+        flex-direction: column;
+        margin: 5%;
+    }
+
+    .form-parts {
+        margin: 0;
+        margin-bottom: 5%;
+    }
+
+    select, input, button {
+        width: 100%;
+    }
+
+    .task {
+        width: 90vw;
+        margin: 5% auto;
+        height:30vh;
+    }
+
+    img {
+        margin: bottom 10px;
+      margin-left:10px;
+    }
+
+    .prior-info {
+        margin: 5px auto;
+    }
+
+    .taskname {
+        margin-left: 0;
+        margin-top: -1px;
+    }
+
+    .prod{
+        flex-direction: row;
+       justify-content: space-around;
+       margin-top: -15px;
+       margin-left: -10px;
+    }
+
+    .production, .development {
+        margin: 5px 0;
+    }
+
+    .comments {
+        margin-left: 10px;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .date {
+        margin-left: 0;
+        text-align: center;
+    }
+    .people-work {
+        margin-left: -5vh;
+    }
+}
