@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    background: #EAEAEA;
+}
+.form-task{
+    display: flex;
+
+}
+.form-parts{
+    margin: 5%;
+    color: #356BF8;
+    
+}
+label{
+    display: block;
+    color: #6F7E9A;
+}
+
+
+form div{
+    padding: 5px;
+}
+
+
+
+select{
+    text-align: start;
+    border-radius: 5px;
+    width: 16.5vw;
+    height: 4vh;
+    color: #B0C6E7;
+    border: 1px solid rgb(104, 92, 92);
+    background: rgb(235,235,235);
+}
+input{
+    border-radius: 5px;
+    width: 16.2vw;
+    height: 3vh;
+    border: 1px solid rgb(104, 92, 92);
+    background:white;
+    color: black;
+    
+}
+#dropdown{
+    color:black;
+}
+.production{
+    margin-left: 10%;
+}
+.development{
+    margin-right: 10%;
+}
+button{
+font-size: larger;
+color: #C7F8FF;
+    width: 16.5vw;
+    height: 4vh;
+    background-color: rgb(111, 111, 228);
+    border-radius: 5px;
+    border: none;
+}
+
+.head{
+    font-size: x-large;
+   
+}
+.task{
+
+    height:21vh ;
+width: 29vw;
+background-color:#FFFFFF;
+margin: 16.5% 5% 5% 5%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    border-radius: 10px;
+}
+img{
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    
+    margin-left: 5%;
+ 
+    margin-top: 35px;
+}
+.prior-info{
+    height: min-content;
+    width: min-content;
+    font-size: small;
+    border-radius: 5px;
+    background-color:#ED6190;
+    color: white;
+    margin-top: 8%;
+    padding: 5px;
+    margin-left: 50px;
+}
+.taskname{
+    padding-top: 10px;
+    font-size: larger;
+    margin-left: -250px;
+    color:#534D8D;
+    padding-bottom: 10px;
+}
+.prod{
+    display: flex;
+    padding-top: 5px;
+
+}
+.production{
+    padding: 3px;
+    background-color:#DCDCDC;
+    color:#7085AE;
+    border-radius: 5px;
+    text-align: center;
+    font-size: smaller;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+.development{
+    padding: 3px;
+    background-color:#DCDCDC;
+    color:#7085AE;
+    font-size: smaller;
+    border-radius: 5px;
+}
+.people-work{
+    display: flex;
+   padding-top: 20px;
+
+}
+.numpeople{
+  
+    font-size: smaller;
+    color:#7085AE;
+   margin-left: 45px;
+   padding-right: 20px;
+  
+}
+.comments{
+    margin-left: 100px;
+  padding-left: 80px;
+    font-size: smaller;
+    color:#7085AE;
+    
+}
+.date{
+    margin-top:5%;
+    margin-left:-10%;
+    color:#7085AE;
+    font-size: x-small;
+}
