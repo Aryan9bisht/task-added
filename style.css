@@ -1,58 +1,62 @@
-body{
+body {
     margin: 0;
     background: #EAEAEA;
 }
-.form-task{
-    display: flex;
 
+.form-task {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
 }
-.form-parts{
+
+.form-parts {
     margin: 5%;
     color: #356BF8;
-    
 }
-label{
+
+label {
     display: block;
     color: #6F7E9A;
 }
 
-
-form div{
+form div {
     padding: 5px;
 }
 
-
-
-select{
+select {
     text-align: start;
     border-radius: 5px;
     width: 16.5vw;
     height: 4vh;
     color: #B0C6E7;
     border: 1px solid rgb(104, 92, 92);
-    background: rgb(235,235,235);
+    background: rgb(235, 235, 235);
 }
-input{
+
+input {
     border-radius: 5px;
     width: 16.2vw;
     height: 3vh;
     border: 1px solid rgb(104, 92, 92);
-    background:white;
+    background: white;
     color: black;
-    
 }
-#dropdown{
-    color:black;
+
+#dropdown {
+    color: black;
 }
-.production{
+
+.production {
     margin-left: 10%;
 }
-.development{
+
+.development {
     margin-right: 10%;
 }
-button{
-font-size: larger;
-color: #C7F8FF;
+
+button {
+    font-size: larger;
+    color: #C7F8FF;
     width: 16.5vw;
     height: 4vh;
     background-color: rgb(111, 111, 228);
@@ -60,98 +64,113 @@ color: #C7F8FF;
     border: none;
 }
 
-.head{
+.head {
     font-size: x-large;
-   
 }
-.task{
 
-    height:21vh ;
-width: 29vw;
-background-color:#FFFFFF;
-margin: 16.5% 5% 5% 5%;
+.task {
+    height: 21vh;
+    width: 29vw;
+    background-color: #FFFFFF;
+    margin: 16.5% 5% 5% 5%;
+    display: -webkit-box;
+    display: -webkit-flex;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
     flex-direction: row;
     text-align: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
     justify-content: center;
+    -webkit-align-content: center;
     align-content: center;
     border-radius: 10px;
 }
-img{
+
+img {
     background-color: black;
     height: 30px;
     width: 30px;
-    
     margin-left: 5%;
- 
     margin-top: 35px;
 }
-.prior-info{
+
+.prior-info {
     height: min-content;
     width: min-content;
     font-size: small;
     border-radius: 5px;
-    background-color:#ED6190;
+    background-color: #ED6190;
     color: white;
     margin-top: 8%;
     padding: 5px;
     margin-left: 50px;
 }
-.taskname{
+
+.taskname {
     padding-top: 10px;
     font-size: larger;
     margin-left: -250px;
-    color:#534D8D;
+    color: #534D8D;
     padding-bottom: 10px;
 }
-.prod{
+
+.prod {
+    display: -webkit-box;
+    display: -webkit-flex;
     display: flex;
     padding-top: 5px;
-
 }
-.production{
+
+.production {
     padding: 3px;
-    background-color:#DCDCDC;
-    color:#7085AE;
+    background-color: #DCDCDC;
+    color: #7085AE;
     border-radius: 5px;
     text-align: center;
     font-size: smaller;
     margin-left: 10%;
     margin-right: 5%;
 }
-.development{
+
+.development {
     padding: 3px;
-    background-color:#DCDCDC;
-    color:#7085AE;
+    background-color: #DCDCDC;
+    color: #7085AE;
     font-size: smaller;
     border-radius: 5px;
 }
-.people-work{
-    display: flex;
-   padding-top: 20px;
 
+.people-work {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    padding-top: 20px;
 }
-.numpeople{
-  
+
+.numpeople {
     font-size: smaller;
-    color:#7085AE;
-   margin-left: 45px;
-   padding-right: 20px;
-  
+    color: #7085AE;
+    margin-left: 45px;
+    padding-right: 20px;
 }
-.comments{
+
+.comments {
     margin-left: 100px;
-  padding-left: 80px;
+    padding-left: 80px;
     font-size: smaller;
-    color:#7085AE;
-    
+    color: #7085AE;
 }
-.date{
-    margin-top:5%;
-    margin-left:-10%;
-    color:#7085AE;
+
+.date {
+    margin-top: 5%;
+    margin-left: -10%;
+    color: #7085AE;
     font-size: x-small;
 }
+
 @media only screen and (max-width: 475px) {
     body {
         margin: 0;
@@ -159,6 +178,9 @@ img{
     }
 
     .form-task {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
         flex-direction: column;
         margin: 5%;
     }
@@ -168,19 +190,21 @@ img{
         margin-bottom: 5%;
     }
 
-    select, input, button {
+    select,
+    input,
+    button {
         width: 100%;
     }
 
     .task {
         width: 90vw;
         margin: 5% auto;
-        height:30vh;
+        height: 30vh;
     }
 
     img {
         margin: bottom 10px;
-      margin-left:10px;
+        margin-left: 10px;
     }
 
     .prior-info {
@@ -192,14 +216,20 @@ img{
         margin-top: -1px;
     }
 
-    .prod{
+    .prod {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
         flex-direction: row;
-       justify-content: space-around;
-       margin-top: -15px;
-       margin-left: -10px;
+        -webkit-box-pack: center;
+        -webkit-justify-content: space-around;
+        justify-content: space-around;
+        margin-top: -15px;
+        margin-left: -10px;
     }
 
-    .production, .development {
+    .production,
+    .development {
         margin: 5px 0;
     }
 
@@ -213,6 +243,7 @@ img{
         margin-left: 0;
         text-align: center;
     }
+
     .people-work {
         margin-left: -5vh;
     }
